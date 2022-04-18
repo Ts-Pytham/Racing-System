@@ -3,10 +3,26 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>net6.0</TargetFramework>
+        <BaseOutputPath>D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes</BaseOutputPath>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="SampSharp.GameMode" Version="0.9.0" />
+      <None Remove="announce.exe" />
+      <None Remove="crashinfo.txt" />
+      <None Remove="samp-license.txt" />
+      <None Remove="samp-npc.exe" />
+      <None Remove="samp-server.exe" />
+      <None Remove="server-readme.txt" />
+      <None Remove="server.cfg" />
+      <None Remove="server_log.txt" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="..\.editorconfig" Link=".editorconfig" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="SampSharp.GameMode" Version="0.10.1" />
     </ItemGroup>
 
 </Project>

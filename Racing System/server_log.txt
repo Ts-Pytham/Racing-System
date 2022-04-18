@@ -1,0 +1,779 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:07:06] 
+[13:07:06] Server Plugins
+[13:07:06] --------------
+[13:07:06]  Loading plugin: SampSharp
+[13:07:06]   Failed.
+[13:07:06]  Loaded 0 plugins.
+
+[13:07:06] I couldn't load any gamemode scripts. Please verify your server.cfg
+[13:07:06] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:07:09] 
+[13:07:09] Server Plugins
+[13:07:09] --------------
+[13:07:09]  Loading plugin: SampSharp
+[13:07:09]   Failed.
+[13:07:09]  Loaded 0 plugins.
+
+[13:07:09] I couldn't load any gamemode scripts. Please verify your server.cfg
+[13:07:09] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:08:51] 
+[13:08:51] Server Plugins
+[13:08:51] --------------
+[13:08:51]  Loading plugin: SampSharp
+[13:08:51]   Failed.
+[13:08:51]  Loaded 0 plugins.
+
+[13:08:51] I couldn't load any gamemode scripts. Please verify your server.cfg
+[13:08:51] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:10:58] 
+[13:10:58] Server Plugins
+[13:10:58] --------------
+[13:10:58]  Loading plugin: SampSharp
+[13:10:59] [SampSharp:ERROR] Invalid coreclr directory specified in server.cfg.
+[13:10:59]   Failed.
+[13:10:59]  Loaded 0 plugins.
+
+[13:10:59] 
+[13:10:59] Filterscripts
+[13:10:59] ---------------
+[13:10:59]   Loaded 0 filterscripts.
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:18:43] 
+[13:18:43] Server Plugins
+[13:18:43] --------------
+[13:18:43]  Loading plugin: SampSharp
+[13:18:43] [SampSharp:ERROR] Invalid gamemode specified in server.cfg.
+[13:18:43]   Failed.
+[13:18:43]  Loaded 0 plugins.
+
+[13:18:43] 
+[13:18:43] Filterscripts
+[13:18:43] ---------------
+[13:18:43]   Loaded 0 filterscripts.
+
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:28:55] 
+[13:28:55] Server Plugins
+[13:28:55] --------------
+[13:28:55]  Loading plugin: SampSharp
+[13:28:55] [SampSharp:INFO] Runtime path: C:\Users\Johan Sánchez\source\repos\Racing System\Racing System\runtime\shared\Microsoft.NETCore.App\6.0.4
+[13:28:55] [SampSharp:INFO] Game mode path: C:\Users\Johan Sánchez\source\repos\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[13:28:55]   Loaded.
+[13:28:55]  Loaded 1 plugins.
+
+[13:28:55] 
+[13:28:55] Filterscripts
+[13:28:55] ---------------
+[13:28:55]   Loaded 0 filterscripts.
+
+[13:28:55]   Filterscript 'empty.amx' loaded.
+[13:28:55] 
+[13:28:55] SampSharp Plugin
+[13:28:55] ----------------
+[13:28:55] v0.10.0, (C)2014-2022 Tim Potze
+[13:28:55] 
+[13:28:55] [SampSharp:INFO] Initializing .NET runtime...
+[13:28:55] [SampSharp:ERROR] CoreCLR.dll could not be found.
+[13:28:55] [SampSharp:ERROR] Failed to initialize CoreCLR runtime. Error -1.
+[13:28:55] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:38:06] 
+[13:38:06] Server Plugins
+[13:38:06] --------------
+[13:38:06]  Loading plugin: SampSharp
+[13:38:06] [SampSharp:INFO] Runtime path: C:\Users\Johan Sánchez\source\repos\Racing System\Racing System\runtime\shared\Microsoft.NETCore.App\6.0.4
+[13:38:06] [SampSharp:INFO] Game mode path: C:\Users\Johan Sánchez\source\repos\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[13:38:06]   Loaded.
+[13:38:06]  Loaded 1 plugins.
+
+[13:38:06] 
+[13:38:06] Filterscripts
+[13:38:06] ---------------
+[13:38:06]   Loaded 0 filterscripts.
+
+[13:38:06]   Filterscript 'empty.amx' loaded.
+[13:38:06] 
+[13:38:06] SampSharp Plugin
+[13:38:06] ----------------
+[13:38:06] v0.10.0, (C)2014-2022 Tim Potze
+[13:38:06] 
+[13:38:06] [SampSharp:INFO] Initializing .NET runtime...
+[13:38:06] [SampSharp:ERROR] CoreCLR.dll could not be found.
+[13:38:06] [SampSharp:ERROR] Failed to initialize CoreCLR runtime. Error -1.
+[13:38:06] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:44:00] 
+[13:44:00] Server Plugins
+[13:44:00] --------------
+[13:44:00]  Loading plugin: SampSharp
+[13:44:00] [SampSharp:INFO] Runtime path: runtime
+[13:44:00] [SampSharp:INFO] Game mode path: C:\Users\Johan Sánchez\source\repos\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[13:44:00]   Loaded.
+[13:44:00]  Loaded 1 plugins.
+
+[13:44:00] 
+[13:44:00] Filterscripts
+[13:44:00] ---------------
+[13:44:00]   Loaded 0 filterscripts.
+
+[13:44:00]   Filterscript 'empty.amx' loaded.
+[13:44:00] 
+[13:44:00] SampSharp Plugin
+[13:44:00] ----------------
+[13:44:00] v0.10.0, (C)2014-2022 Tim Potze
+[13:44:00] 
+[13:44:00] [SampSharp:INFO] Initializing .NET runtime...
+[13:44:00] [SampSharp:ERROR] CoreCLR.dll could not be found.
+[13:44:00] [SampSharp:ERROR] Failed to initialize CoreCLR runtime. Error -1.
+[13:44:00] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:47:42] 
+[13:47:42] Server Plugins
+[13:47:42] --------------
+[13:47:42]  Loading plugin: SampSharp
+[13:47:42] [SampSharp:INFO] Runtime path: C:\Users\Johan Sánchez\source\repos\Racing System\Racing System\runtime
+[13:47:42] [SampSharp:INFO] Game mode path: C:\Users\Johan Sánchez\source\repos\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[13:47:42]   Loaded.
+[13:47:42]  Loaded 1 plugins.
+
+[13:47:42] 
+[13:47:42] Filterscripts
+[13:47:42] ---------------
+[13:47:42]   Loaded 0 filterscripts.
+
+[13:47:42]   Filterscript 'empty.amx' loaded.
+[13:47:42] 
+[13:47:42] SampSharp Plugin
+[13:47:42] ----------------
+[13:47:42] v0.10.0, (C)2014-2022 Tim Potze
+[13:47:42] 
+[13:47:42] [SampSharp:INFO] Initializing .NET runtime...
+[13:47:42] [SampSharp:ERROR] CoreCLR.dll could not be found.
+[13:47:42] [SampSharp:ERROR] Failed to initialize CoreCLR runtime. Error -1.
+[13:47:42] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:48:18] 
+[13:48:18] Server Plugins
+[13:48:18] --------------
+[13:48:18]  Loading plugin: SampSharp
+[13:48:18] [SampSharp:INFO] Runtime path: C:\Users\Johan Sánchez\source\repos\Racing System\Racing System\runtime
+[13:48:18] [SampSharp:INFO] Game mode path: C:\Users\Johan Sánchez\source\repos\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[13:48:18]   Loaded.
+[13:48:18]  Loaded 1 plugins.
+
+[13:48:18] 
+[13:48:18] Filterscripts
+[13:48:18] ---------------
+[13:48:18]   Loaded 0 filterscripts.
+
+[13:48:18]   Filterscript 'empty.amx' loaded.
+[13:48:18] 
+[13:48:18] SampSharp Plugin
+[13:48:18] ----------------
+[13:48:18] v0.10.0, (C)2014-2022 Tim Potze
+[13:48:18] 
+[13:48:18] [SampSharp:INFO] Initializing .NET runtime...
+[13:48:18] [SampSharp:ERROR] CoreCLR.dll could not be found.
+[13:48:18] [SampSharp:ERROR] Failed to initialize CoreCLR runtime. Error -1.
+[13:48:18] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:50:23] 
+[13:50:23] Server Plugins
+[13:50:23] --------------
+[13:50:23]  Loading plugin: SampSharp
+[13:50:23] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[13:50:23] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[13:50:23]   Loaded.
+[13:50:23]  Loaded 1 plugins.
+
+[13:50:23] 
+[13:50:23] Filterscripts
+[13:50:23] ---------------
+[13:50:23]   Loaded 0 filterscripts.
+
+[13:50:23]   Filterscript 'empty.amx' loaded.
+[13:50:23] 
+[13:50:23] SampSharp Plugin
+[13:50:23] ----------------
+[13:50:23] v0.10.0, (C)2014-2022 Tim Potze
+[13:50:23] 
+[13:50:23] [SampSharp:INFO] Initializing .NET runtime...
+[13:50:23] [SampSharp:INFO] Starting game mode host...
+[13:50:24] [SampSharp:INFO] Game mode host running.
+[13:50:24] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:54:32] 
+[13:54:32] Server Plugins
+[13:54:32] --------------
+[13:54:32]  Loading plugin: SampSharp
+[13:54:32] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[13:54:32] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[13:54:32]   Loaded.
+[13:54:32]  Loaded 1 plugins.
+
+[13:54:32] 
+[13:54:32] Filterscripts
+[13:54:32] ---------------
+[13:54:32]   Loaded 0 filterscripts.
+
+[13:54:32]   Filterscript 'empty.amx' loaded.
+[13:54:32] 
+[13:54:32] SampSharp Plugin
+[13:54:32] ----------------
+[13:54:32] v0.10.0, (C)2014-2022 Tim Potze
+[13:54:32] 
+[13:54:32] [SampSharp:INFO] Initializing .NET runtime...
+[13:54:32] [SampSharp:INFO] Starting game mode host...
+[13:54:32] [SampSharp:INFO] Game mode host running.
+[13:54:32] Number of vehicle models: 0
+[13:55:27] [connection] 127.0.0.1:57874 requests connection cookie.
+[13:55:28] [connection] incoming connection: 127.0.0.1:57874 id: 0
+[13:55:29] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+[13:56:40] [part] Johann_Rostenkowski has left the server (0:1)
+[13:59:25] [connection] 127.0.0.1:50061 requests connection cookie.
+[13:59:26] [connection] incoming connection: 127.0.0.1:50061 id: 0
+[13:59:26] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+Console input: 
+[14:00:41] Unknown command or variable:
+  
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:00:47] 
+[14:00:47] Server Plugins
+[14:00:47] --------------
+[14:00:47]  Loading plugin: SampSharp
+[14:00:47] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:00:47] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:00:47]   Loaded.
+[14:00:47]  Loaded 1 plugins.
+
+[14:00:47] 
+[14:00:47] Filterscripts
+[14:00:47] ---------------
+[14:00:47]   Loaded 0 filterscripts.
+
+[14:00:47]   Filterscript 'empty.amx' loaded.
+[14:00:47] 
+[14:00:47] SampSharp Plugin
+[14:00:47] ----------------
+[14:00:47] v0.10.0, (C)2014-2022 Tim Potze
+[14:00:47] 
+[14:00:47] [SampSharp:INFO] Initializing .NET runtime...
+[14:00:47] [SampSharp:INFO] Starting game mode host...
+[14:00:47] [SampSharp:INFO] Game mode host running.
+[14:00:48] Number of vehicle models: 0
+[14:01:39] [connection] 127.0.0.1:51765 requests connection cookie.
+[14:01:40] [connection] incoming connection: 127.0.0.1:51765 id: 0
+[14:01:40] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+[14:02:04] [part] Johann_Rostenkowski has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:03:11] 
+[14:03:11] Server Plugins
+[14:03:11] --------------
+[14:03:11]  Loading plugin: SampSharp
+[14:03:11] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:03:11] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:03:11]   Loaded.
+[14:03:11]  Loaded 1 plugins.
+
+[14:03:12] 
+[14:03:12] Filterscripts
+[14:03:12] ---------------
+[14:03:12]   Loaded 0 filterscripts.
+
+[14:03:12]   Filterscript 'empty.amx' loaded.
+[14:03:12] 
+[14:03:12] SampSharp Plugin
+[14:03:12] ----------------
+[14:03:12] v0.10.0, (C)2014-2022 Tim Potze
+[14:03:12] 
+[14:03:12] [SampSharp:INFO] Initializing .NET runtime...
+[14:03:12] [SampSharp:INFO] Starting game mode host...
+[14:03:12] [SampSharp:INFO] Game mode host running.
+[14:03:12] Number of vehicle models: 0
+[14:03:52] [connection] 127.0.0.1:53596 requests connection cookie.
+[14:03:53] [connection] incoming connection: 127.0.0.1:53596 id: 0
+[14:03:53] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+[14:04:39] [part] Johann_Rostenkowski has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:13:57] 
+[14:13:57] Server Plugins
+[14:13:57] --------------
+[14:13:57]  Loading plugin: SampSharp
+[14:13:57] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:13:57] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:13:57]   Loaded.
+[14:13:57]  Loaded 1 plugins.
+
+[14:13:57] 
+[14:13:57] Filterscripts
+[14:13:57] ---------------
+[14:13:57]   Loaded 0 filterscripts.
+
+[14:13:57]   Filterscript 'empty.amx' loaded.
+[14:13:57] 
+[14:13:57] SampSharp Plugin
+[14:13:57] ----------------
+[14:13:57] v0.10.0, (C)2014-2022 Tim Potze
+[14:13:57] 
+[14:13:57] [SampSharp:INFO] Initializing .NET runtime...
+[14:13:57] [SampSharp:INFO] Starting game mode host...
+[14:13:57] [SampSharp:INFO] Game mode host running.
+[14:13:57] Number of vehicle models: 0
+[14:14:25] [connection] 127.0.0.1:52197 requests connection cookie.
+[14:14:26] [connection] incoming connection: 127.0.0.1:52197 id: 0
+[14:14:27] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:33:46] 
+[14:33:46] Server Plugins
+[14:33:46] --------------
+[14:33:46]  Loading plugin: SampSharp
+[14:33:46] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:33:46] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:33:46]   Loaded.
+[14:33:46]  Loaded 1 plugins.
+
+[14:33:46] 
+[14:33:46] Filterscripts
+[14:33:46] ---------------
+[14:33:46]   Loaded 0 filterscripts.
+
+[14:33:46]   Filterscript 'empty.amx' loaded.
+[14:33:46] 
+[14:33:46] SampSharp Plugin
+[14:33:46] ----------------
+[14:33:46] v0.10.0, (C)2014-2022 Tim Potze
+[14:33:46] 
+[14:33:46] [SampSharp:INFO] Initializing .NET runtime...
+[14:33:46] [SampSharp:INFO] Starting game mode host...
+[14:33:46] [SampSharp:INFO] Game mode host running.
+[14:33:46] Number of vehicle models: 0
+[14:33:51] [connection] 127.0.0.1:55422 requests connection cookie.
+[14:33:52] [connection] incoming connection: 127.0.0.1:55422 id: 0
+[14:33:52] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:36:06] 
+[14:36:06] Server Plugins
+[14:36:06] --------------
+[14:36:06]  Loading plugin: SampSharp
+[14:36:06] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:36:06] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:36:06]   Loaded.
+[14:36:06]  Loaded 1 plugins.
+
+[14:36:06] 
+[14:36:06] Filterscripts
+[14:36:06] ---------------
+[14:36:06]   Loaded 0 filterscripts.
+
+[14:36:06]   Filterscript 'empty.amx' loaded.
+[14:36:06] 
+[14:36:06] SampSharp Plugin
+[14:36:06] ----------------
+[14:36:06] v0.10.0, (C)2014-2022 Tim Potze
+[14:36:06] 
+[14:36:06] [SampSharp:INFO] Initializing .NET runtime...
+[14:36:06] [SampSharp:INFO] Starting game mode host...
+[14:36:06] [SampSharp:INFO] Game mode host running.
+[14:36:06] Number of vehicle models: 0
+[14:36:10] [connection] 127.0.0.1:51365 requests connection cookie.
+[14:36:11] [connection] incoming connection: 127.0.0.1:51365 id: 0
+[14:36:12] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:37:49] 
+[14:37:49] Server Plugins
+[14:37:49] --------------
+[14:37:49]  Loading plugin: SampSharp
+[14:37:49] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:37:49] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:37:49]   Loaded.
+[14:37:49]  Loaded 1 plugins.
+
+[14:37:49] 
+[14:37:49] Filterscripts
+[14:37:49] ---------------
+[14:37:49]   Loaded 0 filterscripts.
+
+[14:37:49]   Filterscript 'empty.amx' loaded.
+[14:37:49] 
+[14:37:49] SampSharp Plugin
+[14:37:49] ----------------
+[14:37:49] v0.10.0, (C)2014-2022 Tim Potze
+[14:37:49] 
+[14:37:49] [SampSharp:INFO] Initializing .NET runtime...
+[14:37:49] [SampSharp:INFO] Starting game mode host...
+[14:37:50] [SampSharp:INFO] Game mode host running.
+[14:37:50] Number of vehicle models: 0
+[14:37:52] [connection] 127.0.0.1:49585 requests connection cookie.
+[14:37:53] [connection] incoming connection: 127.0.0.1:49585 id: 0
+[14:37:53] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+[14:38:26] [part] Johann_Rostenkowski has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:39:25] 
+[14:39:25] Server Plugins
+[14:39:25] --------------
+[14:39:25]  Loading plugin: SampSharp
+[14:39:25] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:39:25] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:39:25]   Loaded.
+[14:39:25]  Loaded 1 plugins.
+
+[14:39:25] 
+[14:39:25] Filterscripts
+[14:39:25] ---------------
+[14:39:25]   Loaded 0 filterscripts.
+
+[14:39:25]   Filterscript 'empty.amx' loaded.
+[14:39:25] 
+[14:39:25] SampSharp Plugin
+[14:39:25] ----------------
+[14:39:25] v0.10.0, (C)2014-2022 Tim Potze
+[14:39:25] 
+[14:39:25] [SampSharp:INFO] Initializing .NET runtime...
+[14:39:25] [SampSharp:INFO] Starting game mode host...
+[14:39:25] [SampSharp:INFO] Game mode host running.
+[14:39:25] Number of vehicle models: 0
+[14:39:53] [connection] 127.0.0.1:62700 requests connection cookie.
+[14:39:54] [connection] incoming connection: 127.0.0.1:62700 id: 0
+[14:39:54] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+[14:40:14] [part] Johann_Rostenkowski has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:42:03] 
+[14:42:03] Server Plugins
+[14:42:03] --------------
+[14:42:03]  Loading plugin: SampSharp
+[14:42:03] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:42:03] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:42:03]   Loaded.
+[14:42:03]  Loaded 1 plugins.
+
+[14:42:03] 
+[14:42:03] Filterscripts
+[14:42:03] ---------------
+[14:42:03]   Loaded 0 filterscripts.
+
+[14:42:03]   Filterscript 'empty.amx' loaded.
+[14:42:03] 
+[14:42:03] SampSharp Plugin
+[14:42:03] ----------------
+[14:42:03] v0.10.0, (C)2014-2022 Tim Potze
+[14:42:03] 
+[14:42:03] [SampSharp:INFO] Initializing .NET runtime...
+[14:42:03] [SampSharp:INFO] Starting game mode host...
+[14:42:03] [SampSharp:INFO] Game mode host running.
+[14:42:03] Number of vehicle models: 0
+[14:42:23] [connection] 127.0.0.1:61375 requests connection cookie.
+[14:42:24] [connection] incoming connection: 127.0.0.1:61375 id: 0
+[14:42:25] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:43:49] 
+[14:43:49] Server Plugins
+[14:43:49] --------------
+[14:43:49]  Loading plugin: SampSharp
+[14:43:49] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:43:49] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:43:49]   Loaded.
+[14:43:49]  Loaded 1 plugins.
+
+[14:43:49] 
+[14:43:49] Filterscripts
+[14:43:49] ---------------
+[14:43:49]   Loaded 0 filterscripts.
+
+[14:43:49]   Filterscript 'empty.amx' loaded.
+[14:43:49] 
+[14:43:49] SampSharp Plugin
+[14:43:49] ----------------
+[14:43:49] v0.10.0, (C)2014-2022 Tim Potze
+[14:43:49] 
+[14:43:49] [SampSharp:INFO] Initializing .NET runtime...
+[14:43:49] [SampSharp:INFO] Starting game mode host...
+[14:43:49] [SampSharp:INFO] Game mode host running.
+[14:43:50] Number of vehicle models: 0
+[14:43:53] [connection] 127.0.0.1:59930 requests connection cookie.
+[14:43:54] [connection] incoming connection: 127.0.0.1:59930 id: 0
+[14:43:54] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+[14:44:19] [part] Johann_Rostenkowski has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:44:46] 
+[14:44:46] Server Plugins
+[14:44:46] --------------
+[14:44:46]  Loading plugin: SampSharp
+[14:44:46] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:44:46] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:44:46]   Loaded.
+[14:44:46]  Loaded 1 plugins.
+
+[14:44:47] 
+[14:44:47] Filterscripts
+[14:44:47] ---------------
+[14:44:47]   Loaded 0 filterscripts.
+
+[14:44:47]   Filterscript 'empty.amx' loaded.
+[14:44:47] 
+[14:44:47] SampSharp Plugin
+[14:44:47] ----------------
+[14:44:47] v0.10.0, (C)2014-2022 Tim Potze
+[14:44:47] 
+[14:44:47] [SampSharp:INFO] Initializing .NET runtime...
+[14:44:47] [SampSharp:INFO] Starting game mode host...
+[14:44:47] [SampSharp:INFO] Game mode host running.
+[14:44:47] Number of vehicle models: 0
+[14:45:11] [connection] 127.0.0.1:55932 requests connection cookie.
+[14:45:12] [connection] incoming connection: 127.0.0.1:55932 id: 0
+[14:45:12] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+[14:45:37] [part] Johann_Rostenkowski has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:59:35] 
+[14:59:35] Server Plugins
+[14:59:35] --------------
+[14:59:35]  Loading plugin: SampSharp
+[14:59:35] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[14:59:35] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[14:59:35]   Loaded.
+[14:59:35]  Loaded 1 plugins.
+
+[14:59:35] 
+[14:59:35] Filterscripts
+[14:59:35] ---------------
+[14:59:35]   Loaded 0 filterscripts.
+
+[14:59:35]   Filterscript 'empty.amx' loaded.
+[14:59:35] 
+[14:59:35] SampSharp Plugin
+[14:59:35] ----------------
+[14:59:35] v0.10.0, (C)2014-2022 Tim Potze
+[14:59:35] 
+[14:59:35] [SampSharp:INFO] Initializing .NET runtime...
+[14:59:35] [SampSharp:INFO] Starting game mode host...
+[14:59:35] [SampSharp:INFO] Game mode host running.
+[14:59:35] Number of vehicle models: 0
+[14:59:58] [connection] 127.0.0.1:64315 requests connection cookie.
+[14:59:59] [connection] incoming connection: 127.0.0.1:64315 id: 0
+[14:59:59] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+[15:00:29] [part] Johann_Rostenkowski has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:05:40] 
+[15:05:40] Server Plugins
+[15:05:40] --------------
+[15:05:40]  Loading plugin: SampSharp
+[15:05:40] [SampSharp:INFO] Runtime path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\runtime
+[15:05:40] [SampSharp:INFO] Game mode path: D:\Archivos de Johan\ProyectosC#\Racing System\Racing System\gamemodes\Debug\net6.0\Racing System.dll
+[15:05:40]   Loaded.
+[15:05:40]  Loaded 1 plugins.
+
+[15:05:40] 
+[15:05:40] Filterscripts
+[15:05:40] ---------------
+[15:05:40]   Loaded 0 filterscripts.
+
+[15:05:40]   Filterscript 'empty.amx' loaded.
+[15:05:40] 
+[15:05:40] SampSharp Plugin
+[15:05:40] ----------------
+[15:05:40] v0.10.0, (C)2014-2022 Tim Potze
+[15:05:40] 
+[15:05:40] [SampSharp:INFO] Initializing .NET runtime...
+[15:05:40] [SampSharp:INFO] Starting game mode host...
+[15:05:40] [SampSharp:INFO] Game mode host running.
+[15:05:40] Number of vehicle models: 0
+[15:06:04] [connection] 127.0.0.1:62062 requests connection cookie.
+[15:06:05] [connection] incoming connection: 127.0.0.1:62062 id: 0
+[15:06:06] [join] Johann_Rostenkowski has joined the server (0:127.0.0.1)
+[15:06:59] [part] Johann_Rostenkowski has left the server (0:1)

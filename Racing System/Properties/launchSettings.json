@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Racing System": {
+      "commandName": "Project"
+    },
+    "samp-server": {
+      "commandName": "Executable",
+      "executablePath": "D:\\Archivos de Johan\\ProyectosC#\\Racing System\\Racing System\\samp-server.exe",
+      "workingDirectory": "D:\\Archivos de Johan\\ProyectosC#\\Racing System\\Racing System"
+    }
+  }
+}
