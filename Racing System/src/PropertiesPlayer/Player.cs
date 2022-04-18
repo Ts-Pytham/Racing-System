@@ -1,17 +1,34 @@
-﻿using SampSharp.GameMode.Pools;
-using SampSharp.GameMode.World;
+﻿using SampSharp.GameMode.World;
+using SampSharp.GameMode.SAMP;
 using System;
 
 namespace Racing_System.PropertiesPlayer
 {
-    [PooledType]
-    public class Player : BasePlayer
+ 
+    public partial class Player : BasePlayer
     {
-        public override void OnConnected(EventArgs e)
+        public bool Equals(Player player, string msg)
         {
-            base.OnConnected(e);
-
-            SendClientMessage("Welcome to blank game mode by your name here!");
+            if (this == player)
+            {
+                SendClientMessage(Color.Red, "Error: " + msg);
+                return true;
+            }
+            return false;
         }
+
+        public static Player Find(Player player, int playerid)
+        {
+            Player player1 = (Player)Find(playerid);
+            if (player1 == null || !player1.IsConnected)
+            {
+                player.SendClientMessage(Color.Red, "Error: El jugador no se encuentra conectado.");
+                throw new Exception();
+            }
+            return player1;
+        }
+
+
+
     }
 }
