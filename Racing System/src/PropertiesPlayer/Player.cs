@@ -2,7 +2,7 @@
 using SampSharp.GameMode.World;
 using System;
 
-namespace Racing_System
+namespace Racing_System.PropertiesPlayer
 {
     [PooledType]
     public class Player : BasePlayer

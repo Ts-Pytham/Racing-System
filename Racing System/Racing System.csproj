@@ -9,4 +9,8 @@
         <PackageReference Include="SampSharp.GameMode" Version="0.9.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="src\Commands\" />
+    </ItemGroup>
+
 </Project>
