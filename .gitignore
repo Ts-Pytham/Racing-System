@@ -61,6 +61,14 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+
+/**/pawno
+/**/samp-server.exe
+/**/samp-server.log
+/**/runtime
+/**/samp-npc.exe
+/**/server_log.txt
+/**/server.cfg
 # StyleCop
 StyleCopReport.xml
 
@@ -348,3 +356,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+

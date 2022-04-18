@@ -7,6 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <Compile Remove="pawno\**" />
+      <EmbeddedResource Remove="pawno\**" />
+      <None Remove="pawno\**" />
+    </ItemGroup>
+
+    <ItemGroup>
       <None Remove="announce.exe" />
       <None Remove="crashinfo.txt" />
       <None Remove="samp-license.txt" />
