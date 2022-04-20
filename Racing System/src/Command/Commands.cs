@@ -3,11 +3,13 @@ using SampSharp.GameMode.SAMP.Commands;
 using SampSharp.GameMode.World;
 using SampSharp.GameMode;
 using System;
+using IO = System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using SampSharp.GameMode.Definitions;
+using Racing_System.Extensions;
 
 namespace Racing_System.Command
 {
@@ -29,17 +31,45 @@ namespace Racing_System.Command
                 return;
             }
    
-           BaseVehicle.Create((VehicleModelType)idcar, player.Position, 90, colour1, colour2);
+           BaseVehicle.Create((VehicleModelType)idcar, player.Position, player.Angle, colour1, colour2);
 
+        }
+        [Command("getpos", Shortcut = "gpos")]
+        private static void GetPos(Player p)
+        {
+            string path = "pos.txt";
+            var pos = p.Position.ToString().Where(x => x != '(' && x != ')').ToArray();
+            byte[] info = new UTF8Encoding(true).GetBytes(new string(pos) + "\n");
+            using IO.FileStream fs = !IO.File.Exists(path) ? IO.File.Create(path) : IO.File.OpenWrite(path);
+
+            fs.Seek(0, IO.SeekOrigin.End);
+            fs.Write(info, 0, info.Length);
+            
+            p.SendClientMessage($"Tu posición actual es: {p.Position}.");
+        }
+
+        [Command("tp", UsageMessage = "/tp [x] [y] [z]")]
+        private static void TP(Player player, float x, float y, float z)
+        {
+            player.Position = new Vector3(x, y, z);
+            player.SendClientMessage($"Acabas de ir a la posición indicada, {player.Position}.");
         }
 
         [Command("vw", Shortcut = "vw", UsageMessage = "/vw [idVirtualWorld]")]
-        private static void GetCar(Player player, int vw)
+        private static void GetVirtualWorld(Player player, int vw)
         {
             if (vw < 0 )
                 player.SendClientMessage("El id no puede ser negativo!");
             player.VirtualWorld = vw;
             player.SendClientMessage($"Te has cambiado al Virtual World: {vw}");
+        }
+
+        [Command("setcp")]
+        private static void SetCheckPoint(Player player)
+        {
+            
+            player.SetRaceCheckpoint(CheckpointType.Normal, new Vector3(player.Position.X + 50, player.Position.Y, player.Position.Z), new Vector3(0, 0, 0), 10.0F);
+            player.SetRaceCheckpoint(CheckpointType.Normal, new Vector3(player.Position.X + 120, player.Position.Y, player.Position.Z), new Vector3(player.Position.X + 120, player.Position.Y, player.Position.Z), 10.0F);
         }
     }
 }

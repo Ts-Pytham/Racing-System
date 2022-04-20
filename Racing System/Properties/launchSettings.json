@@ -1,7 +1,8 @@
 {
   "profiles": {
     "Racing System": {
-      "commandName": "Project"
+      "commandName": "Project",
+      "nativeDebugging": false
     },
     "samp-server": {
       "commandName": "Executable",

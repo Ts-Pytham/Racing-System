@@ -1,6 +1,7 @@
 ﻿using SampSharp.GameMode.World;
 using SampSharp.GameMode.SAMP;
 using System;
+using SampSharp.GameMode.Events;
 
 namespace Racing_System.PropertiesPlayer
 {
@@ -14,6 +15,7 @@ namespace Racing_System.PropertiesPlayer
                 SendClientMessage(Color.Red, "Error: " + msg);
                 return true;
             }
+            
             return false;
         }
 
