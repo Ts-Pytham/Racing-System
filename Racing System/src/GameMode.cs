@@ -1,4 +1,6 @@
 ﻿using SampSharp.GameMode;
+using SampSharp.GameMode.Events;
+using SampSharp.GameMode.World;
 using System;
 
 namespace Racing_System
@@ -16,6 +18,11 @@ namespace Racing_System
             SetGameModeText("Blank game mode");
 
             // TODO: Put logic to initialize your game mode here
+        }
+
+        protected override void OnPlayerClickMap(BasePlayer player, PositionEventArgs e)
+        {
+            player.Position = e.Position;
         }
     }
 }

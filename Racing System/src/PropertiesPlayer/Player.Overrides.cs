@@ -19,9 +19,8 @@ namespace Racing_System.PropertiesPlayer
             DisableRaceCheckpoint();
         }
    
+
         #endregion
-
-
 
 
     }
