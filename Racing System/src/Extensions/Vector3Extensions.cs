@@ -37,12 +37,13 @@ namespace Racing_System.Extensions
 
         private static float[] GetVectorFloat(string vector)
         {
-            string[] newVector = vector.Split(new char[] { ',', '.' });
+            string[] newVector = vector.Split(", ");
 
             float[] result = new float[newVector.Length];
+            int i = 0;
             foreach(var f in newVector)
             {
-                _ = result.Append(float.Parse(f));
+                result[i++] = float.Parse(f);
             }
             return result;
         }

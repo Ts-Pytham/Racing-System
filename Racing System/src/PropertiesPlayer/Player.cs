@@ -2,12 +2,16 @@
 using SampSharp.GameMode.SAMP;
 using System;
 using SampSharp.GameMode.Events;
+using SampSharp.GameMode;
+using System.Collections.Generic;
 
 namespace Racing_System.PropertiesPlayer
 {
  
     public partial class Player : BasePlayer
     {
+        public List<Vector3> CoordsCP { get; set; } = new List<Vector3>();
+        public int IndexCP { get; set; } = 0;
         public bool Equals(Player player, string msg)
         {
             if (this == player)

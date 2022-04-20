@@ -35,16 +35,18 @@ namespace Racing_System.Command
 
         }
         [Command("getpos", Shortcut = "gpos")]
-        private static void GetPos(Player p)
+        private static void GetPos(Player p, int e = 1)
         {
-            string path = "pos.txt";
-            var pos = p.Position.ToString().Where(x => x != '(' && x != ')').ToArray();
-            byte[] info = new UTF8Encoding(true).GetBytes(new string(pos) + "\n");
-            using IO.FileStream fs = !IO.File.Exists(path) ? IO.File.Create(path) : IO.File.OpenWrite(path);
+            if (e != 1)
+            {
+                string path = "pos.txt";
+                var pos = p.Position.ToString().Where(x => x != '(' && x != ')').ToArray();
+                byte[] info = new UTF8Encoding(true).GetBytes(new string(pos) + "\n");
+                using IO.FileStream fs = !IO.File.Exists(path) ? IO.File.Create(path) : IO.File.OpenWrite(path);
 
-            fs.Seek(0, IO.SeekOrigin.End);
-            fs.Write(info, 0, info.Length);
-            
+                fs.Seek(0, IO.SeekOrigin.End);
+                fs.Write(info, 0, info.Length);
+            }
             p.SendClientMessage($"Tu posición actual es: {p.Position}.");
         }
 
@@ -53,6 +55,8 @@ namespace Racing_System.Command
         {
             player.Position = new Vector3(x, y, z);
             player.SendClientMessage($"Acabas de ir a la posición indicada, {player.Position}.");
+            player.SendClientMessage($"Esta fueron ingresadas por el usuario {x},{y},{z} y este es" +
+                $"el vector resultante: {new Vector3(x, y, z)}");
         }
 
         [Command("vw", Shortcut = "vw", UsageMessage = "/vw [idVirtualWorld]")]
@@ -67,7 +71,12 @@ namespace Racing_System.Command
         [Command("setcp")]
         private static void SetCheckPoint(Player player)
         {
-            player.SetRaceCheckpoint(CheckpointType.Normal, new Vector3(player.Position.X + 50, player.Position.Y, player.Position.Z), new Vector3(0, 0, 0), 10.0F);
+            if (!IO.File.Exists("pos.txt")) return;
+
+            player.CoordsCP = Vector3Extensions.GetCoordinatesFromFile("pos.txt");
+            player.IndexCP = 0;
+            player.SetRaceCheckpoint(CheckpointType.Normal, player.CoordsCP[player.IndexCP++], player.CoordsCP[player.IndexCP], 10f);
+            player.SendClientMessage($"Index: {player.IndexCP}, total: {player.CoordsCP.Count}");
         }
     }
 }
