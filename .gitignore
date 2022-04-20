@@ -63,12 +63,17 @@ artifacts/
 
 
 /**/pawno
+/**/filterscripts
 /**/samp-server.exe
 /**/samp-server.log
 /**/runtime
 /**/samp-npc.exe
 /**/server_log.txt
 /**/server.cfg
+/**/samp-license.txt
+/**/crashinfo.txt
+/**/announce.exe
+/**/npcmodes
 # StyleCop
 StyleCopReport.xml
 
@@ -100,6 +105,8 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+*lnk
+
 
 # Chutzpah Test files
 _Chutzpah*

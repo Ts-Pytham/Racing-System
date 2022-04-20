@@ -3,7 +3,7 @@ using SampSharp.GameMode.Events;
 using SampSharp.GameMode.World;
 using System;
 
-namespace Racing_System
+namespace Racing_System.PropertiesGameMode
 {
     public class GameMode : BaseMode
     {

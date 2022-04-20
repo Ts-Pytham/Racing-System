@@ -42,7 +42,7 @@ namespace Racing_System.Extensions
             float[] result = new float[newVector.Length];
             foreach(var f in newVector)
             {
-                _ = result.Aggregate(float.Parse(f), (a, b) => a + b); //No probado
+                _ = result.Append(float.Parse(f));
             }
             return result;
         }

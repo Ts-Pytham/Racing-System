@@ -67,9 +67,7 @@ namespace Racing_System.Command
         [Command("setcp")]
         private static void SetCheckPoint(Player player)
         {
-            
             player.SetRaceCheckpoint(CheckpointType.Normal, new Vector3(player.Position.X + 50, player.Position.Y, player.Position.Z), new Vector3(0, 0, 0), 10.0F);
-            player.SetRaceCheckpoint(CheckpointType.Normal, new Vector3(player.Position.X + 120, player.Position.Y, player.Position.Z), new Vector3(player.Position.X + 120, player.Position.Y, player.Position.Z), 10.0F);
         }
     }
 }

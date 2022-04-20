@@ -1,5 +1,4 @@
-﻿using SampSharp.GameMode.Events;
-using SampSharp.GameMode.World;
+﻿using SampSharp.GameMode.World;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,19 +9,10 @@ namespace Racing_System.PropertiesPlayer
 {
     public partial class Player : BasePlayer
     {
-
-
-
-        #region Overrides
-        public override void OnEnterRaceCheckpoint(EventArgs e)
+        public Player()
         {
-            
-            DisableRaceCheckpoint();
+          
         }
-   
-
-        #endregion
-
 
     }
 }
