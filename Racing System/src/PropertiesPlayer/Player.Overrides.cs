@@ -6,6 +6,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using SampSharp.GameMode;
+using SampSharp.GameMode.SAMP;
+using SampSharp.GameMode.Display;
 
 namespace Racing_System.PropertiesPlayer
 {
@@ -18,6 +21,9 @@ namespace Racing_System.PropertiesPlayer
         public override void OnEnterRaceCheckpoint(EventArgs e)
         {
             SendClientMessage($"Index: {IndexCP}, total: {CoordsCP.Count}");
+            var pos = new Vector2(600.0f, 0); //Change
+            var td = new PlayerTextDraw(this, pos, $"{IndexCP}/{CoordsCP.Count}", TextDrawFont.Normal, Color.Aquamarine);
+            td.Show();
             if(IndexCP < CoordsCP.Count - 1)
             {
                 SetRaceCheckpoint(CheckpointType.Normal, CoordsCP[IndexCP++], CoordsCP[IndexCP], 10f);

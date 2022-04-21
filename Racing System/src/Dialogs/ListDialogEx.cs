@@ -21,11 +21,16 @@ namespace Racing_System.Dialogs
             IDs.Add(id);
         }
 
-        public void AddItems(IEnumerable<int> ids, IEnumerable<T> items)
-        {
-            
+        public void AddItems(IEnumerable<T> items)
+        {           
             AddItems(items.Select(x => x.ToString()));
-            IDs = new(ids);
+            AddIDs(items);
+        }
+
+        private void AddIDs(IEnumerable<T> items)
+        {
+            for(int i = 0; i != items.Count(); i++)
+                IDs.Add(i);
         }
 
     }
