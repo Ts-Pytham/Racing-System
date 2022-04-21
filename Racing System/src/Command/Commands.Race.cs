@@ -25,7 +25,7 @@ namespace Racing_System.Command
         [Command("showraces", Shortcut = "sraces")]
         private static void ShowRaces(Player player, GameMode gm)
         {
-            var listDialogEx = new ListDialogEx("Carreras", "Aceptar", "Cancelar");
+            var listDialogEx = new ListDialogEx<Race>("Carreras", "Aceptar", "Cancelar");
             listDialogEx.AddItems(Race.GetRacesIEnumerable(gm.Races));
             listDialogEx.Show(player);
 

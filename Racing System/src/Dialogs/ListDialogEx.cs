@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Racing_System.Dialogs
 {
-    public class ListDialogEx : ListDialog
+    public class ListDialogEx<T> : ListDialog
     {
-        public List<int> IDs { get; } = new List<int>();
+        public List<int> IDs { get; set; } = new List<int>();
         public ListDialogEx(string caption, string button1, string button2 = null) : base(caption, button1, button2)
         {
 
@@ -19,6 +19,13 @@ namespace Racing_System.Dialogs
         {
             AddItem(item);
             IDs.Add(id);
+        }
+
+        public void AddItems(IEnumerable<int> ids, IEnumerable<T> items)
+        {
+            
+            AddItems(items.Select(x => x.ToString()));
+            IDs = new(ids);
         }
 
     }
