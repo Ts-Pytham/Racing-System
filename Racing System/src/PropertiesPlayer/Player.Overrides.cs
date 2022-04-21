@@ -17,22 +17,27 @@ namespace Racing_System.PropertiesPlayer
         #region Overrides
         public override void OnEnterRaceCheckpoint(EventArgs e)
         {
-            SendClientMessage($"Index: {IndexCP}, total: {CoordsCP.Count}, actual: {CoordsCP[IndexCP]}");
-            if(IndexCP != CoordsCP.Count - 1)
+            SendClientMessage($"Index: {IndexCP}, total: {CoordsCP.Count}");
+            if(IndexCP < CoordsCP.Count - 1)
             {
                 SetRaceCheckpoint(CheckpointType.Normal, CoordsCP[IndexCP++], CoordsCP[IndexCP], 10f);
+                PlaySound(1138);
+            }
+            else if(IndexCP == CoordsCP.Count - 1)
+            {
+                SetRaceCheckpoint(CheckpointType.Finish, CoordsCP[IndexCP++], new(0,0,0), 10f);
+                PlaySound(1137);
             }
             else
             {
-                SetRaceCheckpoint(CheckpointType.Finish, CoordsCP[IndexCP++], new(0,0,0), 10f);           
                 IndexCP = 0;
                 CoordsCP = new();
+                DisableRaceCheckpoint();
+                PlaySound(1139);
             }
-            
             
         }
    
-
         #endregion
 
 

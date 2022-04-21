@@ -31,4 +31,8 @@
         <PackageReference Include="SampSharp.GameMode" Version="0.10.1" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Dialog\" />
+    </ItemGroup>
+
 </Project>

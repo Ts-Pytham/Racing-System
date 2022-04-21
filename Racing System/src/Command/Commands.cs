@@ -76,7 +76,6 @@ namespace Racing_System.Command
             player.CoordsCP = Vector3Extensions.GetCoordinatesFromFile("pos.txt");
             player.IndexCP = 0;
             player.SetRaceCheckpoint(CheckpointType.Normal, player.CoordsCP[player.IndexCP++], player.CoordsCP[player.IndexCP], 10f);
-            player.SendClientMessage($"Index: {player.IndexCP}, total: {player.CoordsCP.Count}");
         }
     }
 }
