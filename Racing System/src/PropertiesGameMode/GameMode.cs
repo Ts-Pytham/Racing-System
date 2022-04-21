@@ -1,12 +1,15 @@
-﻿using SampSharp.GameMode;
+﻿using Racing_System.src.RaceUtils;
+using SampSharp.GameMode;
 using SampSharp.GameMode.Events;
 using SampSharp.GameMode.World;
 using System;
+using System.Collections.Generic;
 
 namespace Racing_System.PropertiesGameMode
 {
     public class GameMode : BaseMode
     {
+        public List<Race> Races { get; set; } = new List<Race>();
         protected override void OnInitialized(EventArgs e)
         {
             

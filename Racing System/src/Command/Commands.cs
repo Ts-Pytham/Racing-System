@@ -66,6 +66,7 @@ namespace Racing_System.Command
                 player.SendClientMessage("El id no puede ser negativo!");
             player.VirtualWorld = vw;
             player.SendClientMessage($"Te has cambiado al Virtual World: {vw}");
+            
         }
 
         [Command("setcp")]
