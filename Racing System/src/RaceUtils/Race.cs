@@ -1,5 +1,6 @@
 ﻿using Racing_System.PropertiesPlayer;
 using SampSharp.GameMode;
+using SampSharp.GameMode.World;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,9 +15,13 @@ namespace Racing_System.src.RaceUtils
         public int MinCapacity { get; set; }
         public List<Vector3> RaceCPs { get; set; } = new();
         public List<Player> Players { get; set; } = new();
+        public List<BaseVehicle> Vehicles { get; set; } = new();
         public string Name { get; set; }
         public int Money { get; set; }
         public bool Initiated { get; set; }
+        public int VirtualWorld { get; set; }
+        public int ID { get; set; }
+
 
         public static string GetRaces(List<Race> races)
         {
@@ -25,6 +30,25 @@ namespace Racing_System.src.RaceUtils
             return races.Select(x => x.ToString()).Aggregate((x, y) => x + "\n" + y);
         }
 
+        public void LoadingRace(Player player)
+        {
+            if(MaxCapacity <= Players.Count)
+            {
+                Players.Add(player);
+                foreach(var veh in Vehicles)
+                {
+                    if (veh.Driver == null)
+                    {
+                        player.PutInVehicle(veh);
+                        
+                    }
+                }
+            }
+            else
+            {
+                player.SendClientMessage("Ya está llena la carrera!");
+            }
+        }
         public static IEnumerable<string> GetRacesIEnumerable(List<Race> races)
         {
             if (races == null || races.Count == 0) return new List<string>();

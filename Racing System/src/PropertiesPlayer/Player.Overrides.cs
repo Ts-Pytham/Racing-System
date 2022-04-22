@@ -20,30 +20,31 @@ namespace Racing_System.PropertiesPlayer
         #region Overrides
         public override void OnEnterRaceCheckpoint(EventArgs e)
         {
-            SendClientMessage($"Index: {IndexCP}, total: {CoordsCP.Count}");
+            SendClientMessage($"Index: {Data.IndexCP}, total: {Data.CoordsCP.Count}");
             var pos = new Vector2(600.0f, 0); //Change
-            var td = new PlayerTextDraw(this, pos, $"{IndexCP}/{CoordsCP.Count}", TextDrawFont.Normal, Color.Aquamarine);
+            var td = new PlayerTextDraw(this, pos, $"{Data.IndexCP}/{Data.CoordsCP.Count}", TextDrawFont.Normal, Color.Aquamarine);
             td.Show();
-            if(IndexCP < CoordsCP.Count - 1)
+            if(Data.IndexCP < Data.CoordsCP.Count - 1)
             {
-                SetRaceCheckpoint(CheckpointType.Normal, CoordsCP[IndexCP++], CoordsCP[IndexCP], 10f);
+                SetRaceCheckpoint(CheckpointType.Normal, Data.CoordsCP[Data.IndexCP++], Data.CoordsCP[Data.IndexCP], 10f);
                 PlaySound(1138);
             }
-            else if(IndexCP == CoordsCP.Count - 1)
+            else if(Data.IndexCP == Data.CoordsCP.Count - 1)
             {
-                SetRaceCheckpoint(CheckpointType.Finish, CoordsCP[IndexCP++], new(0,0,0), 10f);
+                SetRaceCheckpoint(CheckpointType.Finish, Data.CoordsCP[Data.IndexCP++], new(0,0,0), 10f);
                 PlaySound(1137);
             }
             else
             {
-                IndexCP = 0;
-                CoordsCP = new();
+                Data.IndexCP = 0;
+                Data.CoordsCP = new();
                 DisableRaceCheckpoint();
                 PlaySound(1139);
             }
             
         }
    
+        
         #endregion
 
 

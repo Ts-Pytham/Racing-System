@@ -7,7 +7,7 @@ using System.Collections.Generic;
 
 namespace Racing_System.PropertiesGameMode
 {
-    public class GameMode : BaseMode
+    public partial class GameMode : BaseMode
     {
         public List<Race> Races { get; set; } = new List<Race>();
         protected override void OnInitialized(EventArgs e)

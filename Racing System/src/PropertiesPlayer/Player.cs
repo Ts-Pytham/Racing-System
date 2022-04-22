@@ -10,8 +10,9 @@ namespace Racing_System.PropertiesPlayer
  
     public partial class Player : BasePlayer
     {
-        public List<Vector3> CoordsCP { get; set; } = new List<Vector3>();
-        public int IndexCP { get; set; } = 0;
+        public PlayerDataRace Data { get; set; } = new();
+
+
         public bool Equals(Player player, string msg)
         {
             if (this == player)

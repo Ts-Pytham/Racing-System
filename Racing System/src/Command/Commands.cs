@@ -35,11 +35,11 @@ namespace Racing_System.Command
 
         }
         [Command("getpos", Shortcut = "gpos")]
-        private static void GetPos(Player p, int e = 1)
+        private static void GetPos(Player p, int e = 1, string path = "pos.txt")
         {
             if (e != 1)
             {
-                string path = "pos.txt";
+    
                 var pos = p.Position.ToString().Where(x => x != '(' && x != ')').ToArray();
                 byte[] info = new UTF8Encoding(true).GetBytes(new string(pos) + "\n");
                 using IO.FileStream fs = !IO.File.Exists(path) ? IO.File.Create(path) : IO.File.OpenWrite(path);
@@ -74,9 +74,9 @@ namespace Racing_System.Command
         {
             if (!IO.File.Exists("pos.txt")) return;
 
-            player.CoordsCP = Vector3Extensions.GetCoordinatesFromFile("pos.txt");
-            player.IndexCP = 0;
-            player.SetRaceCheckpoint(CheckpointType.Normal, player.CoordsCP[player.IndexCP++], player.CoordsCP[player.IndexCP], 10f);
+            player.Data.CoordsCP = Vector3Extensions.GetCoordinatesFromFile("pos.txt");
+            player.Data.IndexCP = 0;
+            player.SetRaceCheckpoint(CheckpointType.Normal, player.Data.CoordsCP[player.Data.IndexCP++], player.Data.CoordsCP[player.Data.IndexCP], 10f);
         }
     }
 }
