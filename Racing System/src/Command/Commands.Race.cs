@@ -126,12 +126,12 @@ namespace Racing_System.Command
             }
             else if(player.Data.IsCreatingRace && !player.Data.IsCPCreated)
             {
-                player.Data.CoordsCP.Add(player.Position);
+                player.Data.RaceTemp.RaceCPs.Add(player.Position);
                 player.SendClientMessage($"Se ha ingresado la coordenada correctamente: {player.Position}");
             }
         }
 
-        //Possible method obsolete
+        //Possible deprecated method 
         [Command("createracecpe", Shortcut = "cracecpe")]
         private static void CreateRaceCPEnd(Player player)
         {
