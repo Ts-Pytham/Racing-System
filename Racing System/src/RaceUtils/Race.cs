@@ -1,4 +1,5 @@
 ﻿using Racing_System.PropertiesPlayer;
+using Racing_System.RaceUtils;
 using SampSharp.GameMode;
 using SampSharp.GameMode.World;
 using System;
@@ -7,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Racing_System.src.RaceUtils
+namespace Racing_System.RaceUtils
 {
     public class Race
     {
@@ -21,7 +22,8 @@ namespace Racing_System.src.RaceUtils
         public bool Initiated { get; set; }
         public int VirtualWorld { get; set; }
         public int ID { get; set; }
-
+        public RaceState State { get; set; } = RaceState.WaitingPlayers;
+        public RaceCategory Category { get; set; } = RaceCategory.Normal;
 
         public static string GetRaces(List<Race> races)
         {

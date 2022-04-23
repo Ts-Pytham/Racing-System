@@ -1,4 +1,4 @@
-﻿using Racing_System.src.RaceUtils;
+﻿using Racing_System.RaceUtils;
 using SampSharp.GameMode;
 using SampSharp.GameMode.Events;
 using SampSharp.GameMode.World;
@@ -9,7 +9,7 @@ namespace Racing_System.PropertiesGameMode
 {
     public partial class GameMode : BaseMode
     {
-        public List<Race> Races { get; set; } = new List<Race>();
+        public static List<Race> Races { get; set; } = new List<Race>();
         protected override void OnInitialized(EventArgs e)
         {
             
@@ -17,7 +17,7 @@ namespace Racing_System.PropertiesGameMode
             Console.WriteLine("\n----------------------------------");
             Console.WriteLine(" Blank game mode by your name here");
             Console.WriteLine("----------------------------------\n");
-
+            Console.WriteLine($"Probando {}");
             SetGameModeText("Blank game mode");
             DisableInteriorEnterExits();
 
