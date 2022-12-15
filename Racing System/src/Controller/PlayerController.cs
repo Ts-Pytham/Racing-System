@@ -1,10 +1,6 @@
-﻿using Racing_System.PropertiesPlayer;
-using SampSharp.GameMode.Controllers;
+﻿namespace Racing_System.Controller;
 
-namespace Racing_System.Controller
+public class PlayerController : BasePlayerController
 {
-    public class PlayerController : BasePlayerController
-    {
-        public override void RegisterTypes() => Player.Register<Player>();
-    }
+    public override void RegisterTypes() => Player.Register<Player>();
 }

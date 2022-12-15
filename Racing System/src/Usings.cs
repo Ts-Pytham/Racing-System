@@ -1,0 +1,20 @@
+﻿global using System;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.IO;
+global using Racing_System.PropertiesPlayer;
+global using SampSharp.GameMode.SAMP.Commands;
+global using SampSharp.GameMode.World;
+global using SampSharp.GameMode;
+global using System.Text;
+global using SampSharp.GameMode.Definitions;
+global using Racing_System.Extensions;
+global using Racing_System.Dialogs;
+global using Racing_System.PropertiesGameMode;
+global using Racing_System.RaceUtils;
+global using SampSharp.GameMode.Display;
+global using SampSharp.GameMode.Controllers;
+global using SampSharp.GameMode.Events;
+global using SampSharp.GameMode.SAMP;
+global using SampSharp.Core;
+

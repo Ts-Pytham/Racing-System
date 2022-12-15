@@ -1,37 +1,29 @@
-﻿using SampSharp.GameMode.Display;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Racing_System.Dialogs;
 
-namespace Racing_System.Dialogs
+public class ListDialogEx<T> : ListDialog
 {
-    public class ListDialogEx<T> : ListDialog
+    public List<int> IDs { get; set; } = new List<int>();
+    public ListDialogEx(string caption, string button1, string button2 = null) : base(caption, button1, button2)
     {
-        public List<int> IDs { get; set; } = new List<int>();
-        public ListDialogEx(string caption, string button1, string button2 = null) : base(caption, button1, button2)
-        {
-
-        }
-
-        public void AddItem(int id, string item)
-        {
-            AddItem(item);
-            IDs.Add(id);
-        }
-
-        public void AddItems(IEnumerable<T> items)
-        {           
-            AddItems(items.Select(x => x.ToString()));
-            AddIDs(items);
-        }
-
-        private void AddIDs(IEnumerable<T> items)
-        {
-            for(int i = 0; i != items.Count(); i++)
-                IDs.Add(i);
-        }
 
     }
+
+    public void AddItem(int id, string item)
+    {
+        AddItem(item);
+        IDs.Add(id);
+    }
+
+    public void AddItems(IEnumerable<T> items)
+    {           
+        AddItems(items.Select(x => x.ToString()));
+        AddIDs(items);
+    }
+
+    private void AddIDs(IEnumerable<T> items)
+    {
+        for(int i = 0; i != items.Count(); i++)
+            IDs.Add(i);
+    }
+
 }
