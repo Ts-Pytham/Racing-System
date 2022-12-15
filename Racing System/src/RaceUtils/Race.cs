@@ -1,5 +1,7 @@
-﻿using Racing_System.PropertiesPlayer;
+﻿using GenericCollectionsExtension.SortedList;
+using Racing_System.PropertiesPlayer;
 using Racing_System.RaceUtils;
+using Racing_System.src.RaceUtils;
 using SampSharp.GameMode;
 using SampSharp.GameMode.World;
 using System;
@@ -15,7 +17,7 @@ namespace Racing_System.RaceUtils
         public int MaxCapacity { get; set; }
         public int MinCapacity { get; set; }
         public List<Vector3> RaceCPs { get; set; } = new();
-        public List<Player> Players { get; set; } = new();
+        public SortedList<PlayerPositionRace> Players { get; set; } = new();
         public List<BaseVehicle> Vehicles { get; set; } = new();
         public string Name { get; set; }
         public int Money { get; set; }
@@ -36,7 +38,7 @@ namespace Racing_System.RaceUtils
         {
             if(MaxCapacity <= Players.Count)
             {
-                Players.Add(player);
+                Players.Add(new PlayerPositionRace { Player = player, TotalTime = 0 });
                 foreach(var veh in Vehicles)
                 {
                     if (veh.Driver == null)

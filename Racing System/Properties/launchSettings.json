@@ -7,6 +7,7 @@
     "samp-server": {
       "commandName": "Executable",
       "executablePath": "D:\\Archivos de Johan\\ProyectosC#\\Racing System\\Racing System\\samp-server.exe",
+      "commandLineArgs": "--gamemode Racing System",
       "workingDirectory": "D:\\Archivos de Johan\\ProyectosC#\\Racing System\\Racing System"
     }
   }

@@ -17,7 +17,7 @@ namespace Racing_System.PropertiesGameMode
             Console.WriteLine("\n----------------------------------");
             Console.WriteLine(" Blank game mode by your name here");
             Console.WriteLine("----------------------------------\n");
-            Console.WriteLine($"Probando {}");
+            //Console.WriteLine($"Probando {}");
             SetGameModeText("Blank game mode");
             DisableInteriorEnterExits();
 
